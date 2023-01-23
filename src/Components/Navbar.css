@@ -217,3 +217,29 @@ padding: 40px 0 0 0;
       
      }
        
+
+       /* FOURTH CARD */
+
+       .fourth-parent{
+        background: #06141d;
+        margin: auto;
+        width: 85%;
+        padding: 50px 50px;
+        margin: 60px auto 70px auto
+       }
+       .fourth-detail{
+        background: #06141d;
+        padding: 20px 0;
+        border-top: 2px solid #203646;
+       }
+       .fourth-detail h3{
+        color: #ffffff;
+       }
+       .fourth-detail h5{
+        color: #b5babc;
+        width: 60%;
+        
+       }
+       .fourth-detail h6{
+        color: #b5babc;
+       }
