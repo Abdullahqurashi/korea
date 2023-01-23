@@ -24,7 +24,7 @@ const Main = () => {
        
         </div>
       </div>
-      hhhhhhhh
+     
     </div>
   )
 }
