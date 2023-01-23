@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Firstcard from './Firstcard';
+import Footer from './Footer';
 import Fourth from './Fourth';
 import Header from './Header'
 import Navbar from './Navbar'
@@ -24,7 +25,7 @@ const Main = () => {
        
         </div>
       </div>
-     
+     <Footer/>
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React , {useState} from 'react';
-import Fourthdetail from './Fourthdetail';
+import { Fourthdetail } from '../Data/Data';
+
 
 const Fourth = () => {
     const [Fourth, setFourth] = useState(Fourthdetail); 

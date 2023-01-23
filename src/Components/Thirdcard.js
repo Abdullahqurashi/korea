@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import Thirddetail from './Thirddetail';
+import { Thirddetail } from '../Data/Data';
+
 const Thirdcard = () => {
     const [Thirdcard, setThirddcard] = useState(Thirddetail);
     return (
