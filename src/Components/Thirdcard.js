@@ -34,7 +34,7 @@ const Thirdcard = () => {
 
             </div>
            
-<div className='button-third'>
+{/*<div className='button-third'>
 
 <div>
 <button className='active-third-button'>《漢語大</button>
@@ -49,7 +49,7 @@ const Thirdcard = () => {
 <button>《漢語大</button>
 </div>
 
-</div>
+                </div>*/}
            
         </div>
     )
