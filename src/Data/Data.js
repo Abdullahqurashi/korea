@@ -221,6 +221,6 @@ export const Footerdetail=[
        btn: "CASINO"
     },
     {
-       btn: "CASINO"
+       btn: "CASINO hello"
     },
 ]
