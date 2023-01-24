@@ -1,3 +1,7 @@
+there are two branches of the website :
+
+first branch name is "master" this branch is contain on without images command is "git checkout master"
+secondt branch name is "images" this branch is contain on with images command is "git checkout "images"
 
 23-1-2023 Monday 
 today i completed almost full structure just remaing a responsiveness of this landing page
