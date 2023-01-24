@@ -18,8 +18,8 @@ const Firstcard = () => {
                                     <img src={firstmap.img} alt="" />
                                 </div>
                                 <div>
-                                    <h3 style={{ color: 'white' }}>{firstmap.title}</h3></div>
-                                <div><h5 style={{ width: '80%', color: '#8a9297' }}>{firstmap.description}</h5></div>
+                                    <h3  className= "cardfirst-title">{firstmap.title}</h3></div>
+                                <div><h5 className="cardfirst-descripton">{firstmap.description}</h5></div>
                                 <button className='cardfirst-button'>{firstmap.button}</button>
                             </div>
 

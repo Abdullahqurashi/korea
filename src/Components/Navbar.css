@@ -16,7 +16,8 @@ body{
   .nav-detail-text{
     color: white;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 35px;
+    margin-top: -8px;
   }
   .menu-bars {
     margin-left: 2rem;
@@ -114,16 +115,25 @@ body{
   grid-template-columns: 1fr 1fr 1fr;
     width: 90%;
     margin: auto;
+    gap: 13px ;
     padding: 5px 0 0 0;
     flex-wrap: wrap wrap;
    
   }
+  .cardfirst-title{
+    color: white;
+  }
+  .cardfirst-descripton{
+    width: '80%';
+     color: #8a9297
+  }
   .cardfirst-button{
     border-radius:25px;
-    padding: 15px 40%;
+    padding: 15px 20%;
     border:1px solid gray;
     background:none;
     color: #cfd2d3;
+    width: 100%;
   }
   .cardfirst-sub-parent img{
     width: 90%;

@@ -1,0 +1,129 @@
+@media (min-width:0) and (max-width:750px){
+    .heder{
+        margin-left: 0 !important;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+
+/* NAVIGATION RESPONSIVENESS */
+
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+@media (min-width:280px) and (max-width:400px){
+    .heder{
+        margin-left: 0 !important;
+    }
+    .menu-bars {
+        margin-left: 1rem;
+        /* font-size: 2rem; */
+        background: none;
+        color: white;
+        font-size: 20px;
+    }
+    .nav-detail-text {
+        color: white;
+        text-align: center;
+        margin-left: 14px;
+        font-size: 12px;
+        margin-top: -2px;
+    }
+}
+@media (min-width:401px) and (max-width:500px){
+
+    .heder{
+        margin-left: 0 !important;
+    }
+    .menu-bars {
+        margin-left: 1rem;
+        /* font-size: 2rem; */
+        background: none;
+        color: white;
+        font-size: 23px;
+    }
+    .nav-detail-text {
+        color: white;
+        text-align: center;
+        margin-left: 14px;
+        margin-top: -4px;
+        font-size: 15px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+
+/* DASHBOARD RESPONSIVENESS */
+
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+
+ @media screen and (min-width:240px) and (max-width:400px) {
+    .heder{
+        margin-left: 0 !important;
+    }
+    .nav-menu {
+        background-color: #0f212e;
+        width: 186px;
+        height: 538vh;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 82px;
+        left: -100%;
+        transition: 850ms;
+    }
+    .nav-text a {
+        text-decoration: none;
+        color: #f5f5f5;
+        font-size: 20px;
+        width: 95%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 6px;
+        border-radius: 4px;
+    }
+    span{
+        font-size: 15px;
+    }
+}
+
+
+
+@media screen and (min-width:401px) and (max-width:500px){
+    .nav-menu {
+        background-color: #0f212e;
+        width: 214px;
+        height: 538vh;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 82px;
+        left: -100%;
+        transition: 850ms;
+    }
+    span {
+        margin-left : 7px;
+        font-size:13px ;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+
+/* CARD FIRST */
+
+@media screen and (min-width:650px) and (max-width:900px){
+    .cardfirst-title{
+        color: white;
+        font-size: 14px;
+    }
+    .cardfirst-parent{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+          width: 90%;
+          margin: auto;
+          padding: 5px 0 0 0;
+          flex-wrap: wrap wrap;
+         
+        }
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------- */
