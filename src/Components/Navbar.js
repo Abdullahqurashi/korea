@@ -4,7 +4,7 @@ import * as AiIcons from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import { Data } from './SidebarData';
 import './Navbar.css'
-import './Media.css'
+import './Media-Percentage.css'
 const Navbar = ({sidebar,showSidebar}) => {
     
   return (
