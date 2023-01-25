@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { Footerdetail } from '../Data/Data';
-
+import { footerbuttos } from '../Data/Data';
 const Footer = ({sidebar,showSidebar}) => {
     const [Footer, setFooter] = useState(Footerdetail)
   return (
@@ -22,6 +22,13 @@ const Footer = ({sidebar,showSidebar}) => {
 
    <div className='footer-button'>
    
+  {
+    footerbuttos.map((footerbuttons)=>{
+      return (
+        <button className='footer-btn'>{footerbuttons.btn}</button>
+      )
+    }) 
+  }
   
    </div>
 

@@ -207,20 +207,52 @@ export const Footerdetail=[
         tiltetwo: 'CASINO-INSIDE.COM, Sitemap',
         
     },
-    
+   
+  
+]
+
+export const footerbuttos =[
     {
-       btn: "CASINO"
-    },
+    btn: 'hello'
+},
     {
-       btn: "CASINO"
-    },
+    btn: 'hello'
+},
     {
-       btn: "CASINO"
-    },
+    btn: 'hello'
+},
+ {
+    btn: 'hello'
+},
     {
-       btn: "CASINO"
-    },
+    btn: 'hello'
+},
     {
-       btn: "CASINO"
-    },
+    btn: 'hello'
+},
+    {
+    btn: 'hello'
+},
+ {
+    btn: 'hello'
+},
+    {
+    btn: 'hello'
+},
+    {
+    btn: 'hello'
+},
+    {
+    btn: 'hello'
+},
+    {
+    btn: 'hello'
+},
+    {
+    btn: 'hello'
+},
+    {
+    btn: 'hello'
+},
+
 ]

@@ -1,5 +1,12 @@
 /*------------------------- START HERE THIS SECTION OF THE NAVBAR RESPONSIVENESS ------------------------- */
 
+@media (min-width:0) and (max-width:500px) {
+    .grid-parent{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
 
 @media (min-width:200px) and (max-width:400px){
     
@@ -349,7 +356,13 @@
  
  @media (min-width:701px) and (max-width:1000px){
     
-
+    .fourth-parent {
+        background: #06141d;
+        margin: auto;
+        width: 73%;
+        padding: 50px 50px;
+        margin: 60px auto 70px auto;
+    }
  
 
  }
