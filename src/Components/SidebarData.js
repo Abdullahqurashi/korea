@@ -17,25 +17,25 @@ export const Data = [
     cName: 'nav-text'
   },
   {
-    title: 'Products',
+    title: '《漢語大詞典',
     path: '/products',
     icon: <FaIcons.FaCartPlus />,
     cName: 'nav-text'
   },
   {
-    title: 'Team',
+    title: '《漢語大詞典',
     path: '/team',
     icon: <IoIcons.IoMdPeople />,
     cName: 'nav-text'
   },
   {
-    title: 'Messages',
+    title: '《漢語大詞典',
     path: '/messages',
     icon: <FaIcons.FaEnvelopeOpenText />,
     cName: 'nav-text'
   },
   {
-    title: 'Support',
+    title: '《漢語大詞典',
     path: '/support',
     icon: <IoIcons.IoMdHelpCircle />,
     cName: 'nav-text'

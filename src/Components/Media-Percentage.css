@@ -1,0 +1,174 @@
+/*------------------------- START HERE THIS SECTION OF THE NAVBAR RESPONSIVENESS ------------------------- */
+
+
+@media (min-width:200px) and (max-width:400px){
+    
+    .menu-bars {
+        margin-left: 13px;
+        font-size: 20px;
+        background: none;
+        color: white;
+    }
+
+    .navbar {
+        background-color: #1a2c38;
+        height: 54px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        border-bottom: 1px solid white;
+    }
+    
+    .nav-detail-text {
+        color: white;
+        /* text-align: center; */
+        margin-left: 13px;
+        margin-top: -5px;
+        font-size: 10px;
+    }
+}
+
+
+@media (min-width:401px) and (max-width:600px){
+    
+    .menu-bars {
+        margin-left: 1.5rem;
+        font-size: 25px;
+        background: none;
+        color: white;
+    }
+    .nav-detail-text {
+        color: white;
+        /* text-align: center; */
+        margin-left: 13px;
+        margin-top: -5px;
+        font-size: 13px;
+    }
+}
+
+
+
+/*<======================>  END HERE  THIS SECTION OF THE NAVBAR RESPONSIVENESS  <======================> */
+
+
+
+@media (min-width:240px) and (max-width:400px){
+    .nav-menu {
+        background-color: #0f212e;
+        width: 50%;
+        height: 538vh;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 55px;
+        left: -100%;
+        transition: 850ms;
+    }
+
+
+    .nav-text a {
+        text-decoration: none;
+        color: #f5f5f5;
+        font-size: 13px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 1%;
+        border-radius: 4px;
+    }
+    span{
+        margin-left: 3%;
+    }
+}
+
+@media (min-width:401px) and (max-width:600px){
+    .nav-menu {
+        background-color: #0f212e;
+        width: 50%;
+        height: 538vh;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 82px;
+        left: -100%;
+        transition: 850ms;
+    }
+
+    .nav-text a {
+        text-decoration: none;
+        color: #f5f5f5;
+        font-size: 15px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 5%;
+        border-radius: 4px;
+    }
+}
+
+
+
+
+/*------------------------- START HERE THIS SECTION OF THE SIDE BAR RESPONSIVENESS ------------------------- */
+
+
+
+/*------------------------- START HERE THIS SECTION OF THE SIDE CARDS AND HEADER RESPONSIVENESS ------------------------- */
+
+
+@media (min-width:240px) and (max-width:600px){
+    .heder{
+        margin-left: 0 !important;
+    }
+}
+
+/*<======================>  END HERE THIS SECTION OF THE SIDE CARDS AND HEADER RESPONSIVENESS<======================> */
+
+
+
+/*------------------------- START HERE THIS DIV FOR CARD SECTION SECOND HEADING AND TITLE AND ------------------------- */
+
+
+@media (min-width:240px) and (max-width:400px){
+   .cardfirst-parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: auto;
+    gap: 13px;
+    padding: 5px 0 0 0;
+    flex-wrap: wrap wrap;
+} 
+
+.banner-first {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0 0 0;
+}
+}
+@media (min-width:401px) and (max-width:700px){
+   .cardfirst-parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: auto;
+    gap: 13px;
+    padding: 5px 0 0 0;
+    flex-wrap: wrap wrap;
+} 
+
+.banner-first {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0 0 0;
+}
+}
+
+
+/*------------------------- END HERE THIS SECTION OF THE FIRST CARD RESPONSIVENESS ------------------------- */
