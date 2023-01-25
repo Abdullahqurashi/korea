@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Firstdetail } from '../Data/Data';
-const Firstcard = () => {
+const Firstcard = ({sidebar,showSidebar}) => {
     const [Firstcard, setFirstcard] = useState(Firstdetail);
     return (
         <div>

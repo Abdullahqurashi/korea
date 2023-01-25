@@ -118,7 +118,7 @@
 /*------------------------- START HERE THIS SECTION OF THE SIDE CARDS AND HEADER RESPONSIVENESS ------------------------- */
 
 
-@media (min-width:240px) and (max-width:600px){
+@media (min-width:240px) and (max-width:750px){
     .heder{
         margin-left: 0 !important;
     }
@@ -128,7 +128,7 @@
 
 
 
-/*------------------------- START HERE THIS DIV FOR CARD SECTION SECOND HEADING AND TITLE AND ------------------------- */
+/*------------------------- START HERE THIS DIV FOR CARD SECTION FIRST HEADING AND TITLE AND ------------------------- */
 
 
 @media (min-width:240px) and (max-width:400px){
@@ -172,3 +172,85 @@
 
 
 /*------------------------- END HERE THIS SECTION OF THE FIRST CARD RESPONSIVENESS ------------------------- */
+
+
+
+
+/*------------------------- START HERE THIS DIV FOR CARD SECTION SECOND HEADING AND TITLE AND ------------------------- */
+
+
+@media (min-width:240px) and (max-width:400px){
+    .cardsecond-parent {
+     display: grid;
+     grid-template-columns: 1fr;
+     width: 90%;
+     margin: auto;
+     gap: 13px;
+     padding: 5px 0 0 0;
+     flex-wrap: wrap wrap;
+ } 
+ 
+ .banner-second {
+     display: grid;
+     grid-template-columns: 1fr;
+     width: 90%;
+     margin: auto;
+     padding: 0px 0 0 0;
+ }
+ .banner-second img{
+    padding-left: 9px;
+         width: 93%;
+         margin: 5px 0;
+         
+       
+ }
+ }
+ @media (min-width:401px) and (max-width:700px){
+    .cardsecond-parent {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     width: 90%;
+     margin: auto;
+     gap: 13px;
+     padding: 5px 0 0 0;
+     flex-wrap: wrap wrap;
+ } 
+ 
+ .banner-second {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     width: 90%;
+     margin: auto;
+     padding: 0px 0 0 0;
+ }
+ .banner-second img{
+    padding-left: 9px;
+         width: 93%;
+         margin: 5px 0;
+         
+       
+ }
+}
+ 
+ @media (min-width:701px) and (max-width:950px){
+    .cardsecond-parent {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     width: 90%;
+     margin: auto;
+     gap: 13px;
+     padding: 5px 0 0 0;
+     flex-wrap: wrap wrap;
+ } 
+ 
+ .banner-second {
+     display: grid;
+     grid-template-columns: 1fr 1fr ;
+     width: 90%;
+     margin: auto;
+     padding: 0px 0 0 0;
+ }
+ }
+ 
+ 
+ /*------------------------- END HERE THIS SECTION OF THE FIRST CARD RESPONSIVENESS ------------------------- */
