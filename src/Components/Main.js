@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import Firstcard from './Firstcard';
 // import Footer from './Footer';
-/* import Fourth from './Fourth'; */
+ import Fourth from './Fourth'; 
 import Header from './Header'
 import Navbar from './Navbar'
   import Secondcard from './Secondcard';
@@ -23,6 +23,7 @@ const Main = () => {
           <Firstcard />
          <Secondcard/>
       <Thirdcard/>
+      <Fourth/>
         </div>
       </div>
    
