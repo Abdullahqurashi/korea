@@ -253,4 +253,56 @@
  }
  
  
- /*------------------------- END HERE THIS SECTION OF THE FIRST CARD RESPONSIVENESS ------------------------- */
+ /*------------------------- END HERE THIS SECTION OF THE SECOND CARD RESPONSIVENESS ------------------------- */
+
+
+
+
+
+
+ /*------------------------- START HERE THIS DIV FOR CARD SECTION THIRD HEADING AND TITLE AND ------------------------- */
+
+
+@media (min-width:240px) and (max-width:400px){
+    .cardthird-parent {
+     display: grid;
+     grid-template-columns: 1fr;
+     width: 90%;
+     margin: auto;
+     gap: 13px;
+     padding: 5px 0 0 0;
+     flex-wrap: wrap wrap;
+ } 
+
+ }
+ @media (min-width:401px) and (max-width:700px){
+    .cardthird-parent {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     width: 90%;
+     margin: auto;
+     gap: 13px;
+     padding: 5px 0 0 0;
+     flex-wrap: wrap wrap;
+ } 
+ 
+ 
+}
+ 
+ @media (min-width:701px) and (max-width:1000px){
+    
+    .cardthird-parent {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     width: 90%;
+     margin: auto;
+     gap: 13px;
+     padding: 5px 0 0 0;
+     flex-wrap: wrap wrap;
+ } 
+ 
+
+ }
+ 
+ 
+ /*------------------------- END HERE THIS SECTION OF THE THIRD CARD RESPONSIVENESS ------------------------- */

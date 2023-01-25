@@ -6,7 +6,7 @@ import Firstcard from './Firstcard';
 import Header from './Header'
 import Navbar from './Navbar'
   import Secondcard from './Secondcard';
-/* import Thirdcard from './Thirdcard'; */
+ import Thirdcard from './Thirdcard'; 
 
 const Main = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -22,7 +22,7 @@ const Main = () => {
           <Header />
           <Firstcard />
          <Secondcard/>
-     
+      <Thirdcard/>
         </div>
       </div>
    
