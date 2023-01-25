@@ -355,3 +355,19 @@
  
  
  /*------------------------- END HERE THIS IS FOURTH SECTION RESPONSIVENESS  ------------------------- */
+
+
+
+
+/*  ACCORDAIN START HERE */
+
+@media (min-width:0) and (max-width:1000px){
+    .accordian-parent {
+        display: grid;
+        grid-template-columns: 1fr ;
+        width: 90%;
+        margin: auto;
+        gap: 45px;
+        align-items: center;
+    }
+}

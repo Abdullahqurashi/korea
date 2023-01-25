@@ -1,6 +1,6 @@
 import { Accordion } from '@mui/material';
 import React, { useState } from 'react'
-
+import Accordian from './Accordian';
 import Firstcard from './Firstcard';
 // import Footer from './Footer';
  import Fourth from './Fourth'; 
@@ -25,7 +25,7 @@ const Main = () => {
          <Secondcard/>
       <Thirdcard/>
       <Fourth/>
-     
+     <Accordian/>
         </div>
       </div>
    

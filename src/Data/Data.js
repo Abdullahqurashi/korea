@@ -198,6 +198,26 @@ time : "今天:Kim471 | 2020.9.29"
         },
 ]
 
+//ACCORDIAN
+
+export const Accordiandata = [
+    {
+    title:'Accordion 1',
+    description : 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse'
+},
+    {
+    title:'Accordion 1',
+    description : 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse'
+},
+    {
+    title:'Accordion 1',
+    description : 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse'
+},
+    {
+    title:'Accordion 1',
+    description : 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse'
+},
+]
 // FOOTER
 
 export const Footerdetail=[
