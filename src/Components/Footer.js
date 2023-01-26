@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { Footerdetail } from '../Data/Data';
 import { footerbuttons } from '../Data/Data';
-
+import footerslide from './Footerslider';
 const Footer = ({sidebar,showSidebar}) => {
     const [Footer, setFooter] = useState(Footerdetail)
   return (
@@ -37,7 +37,10 @@ const Footer = ({sidebar,showSidebar}) => {
    </div>
 
    </div> */}
+  
  </div>
+
+ <footerslide/>
    </div>
   );
 }

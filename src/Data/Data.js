@@ -276,3 +276,24 @@ export const footerbuttons =[
         btn: "CASINO"
      },
 ]
+
+export const footersliderdata = [
+    {
+        img:'./images/slider1.PNG'
+    },
+    {
+        img:'./images/slider2.PNG'
+    },
+    {
+        img:'./images/slider3.PNG'
+    },
+    {
+        img:'./images/slider4.PNG'
+    },
+    {
+        img:'./images/slider5.PNG'
+    },
+    {
+        img:'./images/slider6.PNG'
+    },
+]
