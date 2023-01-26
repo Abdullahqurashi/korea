@@ -228,19 +228,51 @@ export const Footerdetail=[
         
     },
     
+   
+]
+
+
+export const footerbuttons =[
     {
-       btn: "CASINO"
-    },
-    {
-       btn: "CASINO"
-    },
-    {
-       btn: "CASINO"
-    },
-    {
-       btn: "CASINO"
-    },
-    {
-       btn: "CASINO"
-    },
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
 ]
