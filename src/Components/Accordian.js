@@ -49,7 +49,7 @@ export default function Accordian() {
       {/*  SECTION ACCORDIAN START HERE */}
 
       <div>
-        <img src="./images/accordian.PNG" alt="" />
+        <img src="./images/accordian.PNG" alt="" style={{width:'100%'}} />
       </div>
     </div>
   );
