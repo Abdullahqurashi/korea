@@ -5,6 +5,7 @@ const Secondcard = () => {
     const [Secondcard, setSecondcard] = useState(Seconddetail);
     return (
         <div>
+            {/* this section start here here of card section section second  */}
             <div>
 
                 <div style={{ width: "90%", margin: "auto", padding: '20px 0 0 0' }}>
@@ -34,6 +35,9 @@ const Secondcard = () => {
 
             </div>
             <center><button className='cardsecond-button'>遺之四 詞</button></center>
+
+
+            {/* this section end  here here of card section section second  */}
 
             <div className='banner-second'>
                 <div>
