@@ -20,7 +20,7 @@ const Thirdcard = () => {
                                         <img src={thirddmap.img} alt="" />
                                     </div>
                                     <div>
-                                        <h3 style={{ color: 'white' }}>{thirddmap.title}</h3></div>
+                                        <h3 className='thirdcard-title'>{thirddmap.title}</h3></div>
                                     <div><h5 style={{ width: '80%', color: '#8a9297' }}>{thirddmap.description}</h5></div>
 
                                 </div>

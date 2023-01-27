@@ -122,6 +122,7 @@ body{
   }
   .cardfirst-title{
     color: white;
+    width: 90%;
   }
   .cardfirst-descripton{
     width: '80%';
@@ -162,8 +163,14 @@ padding: 40px 0 0 0;
         flex-wrap: wrap wrap;
        
       }
+
+
       
       .cardsecond-sub-parent img{
+        width: 90%;
+      }
+      .secondcard-title{
+        color: white;
         width: 90%;
       }
       .cardsecond-button{
@@ -202,6 +209,10 @@ padding: 40px 0 0 0;
       }
       
       .cardthird-sub-parent img{
+        width: 90%;
+      }
+      .thirdcard-title{
+        color: white;
         width: 90%;
       }
       
