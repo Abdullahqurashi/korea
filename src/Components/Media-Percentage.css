@@ -46,20 +46,34 @@
     }
 }
 
-
-
 /*<======================>  END HERE  THIS SECTION OF THE NAVBAR RESPONSIVENESS  <======================> */
 
 
 
+
+
+/*------------------------- START HERE THIS SECTION OF THE SIDE BAR RESPONSIVENESS ------------------------- */
+
 @media (min-width:240px) and (max-width:400px){
+
+/*------------------------- START HERE THIS SECTION FOR COULMN DEVISION IN RESPONSIVENESS ------------------------- */
+
+    .grid-parent {
+        display: grid;
+        position: relative;
+        grid-template-columns: 1fr !important;
+    }
+
+/*<======================>  END HERE  THIS SECTION FOR COULMN DEVISION IN RESPONSIVENESS  <======================> */
+
+
     .nav-menu {
         background-color: #0f212e;
         width: 50%;
         height: 100%;
         display: flex;
         justify-content: center;
-        position: relative;
+        position: absolute;
        
         left: -100%;
         transition: 850ms;
@@ -83,13 +97,26 @@
 }
 
 @media (min-width:401px) and (max-width:600px){
+
+
+
+/*------------------------- START HERE THIS SECTION FOR COULMN DEVISION IN RESPONSIVENESS ------------------------- */
+    
+    .grid-parent {
+        display: grid;
+        position: relative;
+        grid-template-columns: 1fr !important;
+    }
+
+/*<======================>  END HERE  THIS SECTION FOR COULMN DEVISION IN RESPONSIVENESS  <======================> */
+
     .nav-menu {
         background-color: #0f212e;
         width: 50%;
         height: 100% !important;
         display: flex;
         justify-content: center;
-        position: relative  !important;
+        position: absolute;
         left: -100%;
         transition: 850ms;
     }
@@ -106,30 +133,30 @@
         border-radius: 4px;
     }
 }
+/*<======================>  END HERE  THIS SECTION OF THE SIDE BAR RESPONSIVENESS  <======================> */
 
 
 
 
-/*------------------------- START HERE THIS SECTION OF THE SIDE BAR RESPONSIVENESS ------------------------- */
+
 
 
 
 /*------------------------- START HERE THIS SECTION OF THE SIDE CARDS AND HEADER RESPONSIVENESS ------------------------- */
-
-
 @media (min-width:240px) and (max-width:750px){
     .heder{
         margin-left: 0 !important;
     }
 }
-
 /*<======================>  END HERE THIS SECTION OF THE SIDE CARDS AND HEADER RESPONSIVENESS<======================> */
 
 
 
+
+
+
+
 /*------------------------- START HERE THIS DIV FOR CARD SECTION FIRST HEADING AND TITLE AND ------------------------- */
-
-
 @media (min-width:240px) and (max-width:400px){
    .cardfirst-parent {
     display: grid;
@@ -168,16 +195,14 @@
     padding: 40px 0 0 0;
 }
 }
-
-
 /*------------------------- END HERE THIS SECTION OF THE FIRST CARD RESPONSIVENESS ------------------------- */
 
 
 
 
+
+
 /*------------------------- START HERE THIS DIV FOR CARD SECTION SECOND HEADING AND TITLE AND ------------------------- */
-
-
 @media (min-width:240px) and (max-width:400px){
     .cardsecond-parent {
      display: grid;
@@ -250,8 +275,6 @@
      padding: 0px 0 0 0;
  }
  }
- 
- 
  /*------------------------- END HERE THIS SECTION OF THE SECOND CARD RESPONSIVENESS ------------------------- */
 
 
@@ -260,8 +283,6 @@
 
 
  /*------------------------- START HERE THIS DIV FOR CARD SECTION THIRD HEADING AND TITLE AND ------------------------- */
-
-
 @media (min-width:240px) and (max-width:400px){
     .cardthird-parent {
      display: grid;
@@ -302,8 +323,6 @@
  
 
  }
- 
- 
  /*------------------------- END HERE THIS SECTION OF THE THIRD CARD RESPONSIVENESS ------------------------- */
 
 
@@ -311,8 +330,6 @@
 
 
  /*------------------------- START HERE THIS IS FOURTH SECTION RESPONSIVENESS ------------------------- */
-
-
 @media (min-width:240px) and (max-width:359px){
     .fourth-parent {
         background: #06141d;
@@ -351,8 +368,6 @@
 
 
  }
- 
- 
  /*------------------------- END HERE THIS IS FOURTH SECTION RESPONSIVENESS  ------------------------- */
 
 
