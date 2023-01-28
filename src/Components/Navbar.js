@@ -10,6 +10,7 @@ const Navbar = ({ sidebar, showSidebar }) => {
   return (
     <div>
 
+      {/*------------------------- START HERE THIS SECTION OF THE NAVIGATION SECTION------------------------- */}
       <div>
         <div className='navbar'>
 
@@ -25,6 +26,9 @@ const Navbar = ({ sidebar, showSidebar }) => {
         </div>
 
       </div>
+      {/*<======================>  END HERE THIS SECTION OF THE NAVBAR SECTION   <======================> */}
+
+
     </div>
   )
 }

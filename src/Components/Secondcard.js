@@ -5,13 +5,21 @@ const Secondcard = () => {
     const [Secondcard, setSecondcard] = useState(Seconddetail);
     return (
         <div>
-            {/* this section start here here of card section section second  */}
+
+
+            {/*------------------------- START HERE THIS SECTION OF SECOND CARDS SECTION ------------------------- */}
             <div>
 
+
+                {/*------------------------- START HERE THIS SECTION OF THE SECOND CARD SECTION TITLE ------------------------- */}
                 <div style={{ width: "90%", margin: "auto", padding: '20px 0 0 0' }}>
                     <h3 style={{ color: "white" }}>流水，《漢語大詞典》拾遺之四 詞典》拾十</h3>
                     <h5 style={{ color: '#8a9297', width: '80%' }}>流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十</h5>
                 </div>
+                {/*<======================>  END HERE THIS SECTION OF THE SECOND CARD  SECTION TITLE  <======================> */}
+
+
+                {/*------------------------- START HERE SECOND SECTION CARDS------------------------- */}
                 <div className='cardsecond-parent'>
                     {
                         Secondcard.map((secondmap) => {
@@ -35,10 +43,16 @@ const Secondcard = () => {
 
             </div>
             <center><button className='cardsecond-button'>遺之四 詞</button></center>
+            {/*<======================>  END HERE SECOND SECTION CARDS   <======================> */}
 
 
-            {/* this section end  here here of card section section second  */}
 
+            {/*<======================>  END HERE THIS SECTION OF THE SECOND CARD  SECTION   <======================> */}
+
+
+
+
+            {/*------------------------- START HERE THIS SECTION OF THE SECOND CARD BANNER SECTION ------------------------- */}
             <div className='banner-second'>
                 <div>
                     <img src="./images/banner3.PNG" alt="" />
@@ -52,6 +66,7 @@ const Secondcard = () => {
                     <img src="./images/banner5.PNG" alt="" />
                 </div>
             </div>
+            {/*<======================>  END HERE THIS SECTION OF THE SECOND CARD BANNER SECTION   <======================> */}
         </div>
     )
 }

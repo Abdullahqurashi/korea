@@ -102,8 +102,7 @@ span {
   margin-left: 16px;
 }
 
-/* HEADER SECTION START FROM HERE */
-
+/*------------------------- START HERE THIS SECTION OF THE HEADER SECTION------------------------- */
 .heder {
   margin: 0 0 0 250px;
   transition: all 350ms ease 0s;
@@ -118,9 +117,14 @@ span {
   width: 100%;
   margin: auto;
 }
+/*<======================>  END HERE THIS SECTION OF THE HEADER SECTION   <======================> */
 
-/* FIRST CARD */
 
+
+
+
+
+/*------------------------- START HERE THIS SECTION OF THE FIRST CARDS SECTION------------------------- */
 .cardfirst-parent {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -167,9 +171,12 @@ span {
 .banner-first img {
   width: 93%;
 }
+/*<======================>  END HERE THIS SECTION OF THE FIRST CARD SECTION   <======================> */
 
-/* Second CARD */
 
+
+
+/*------------------------- START HERE THIS SECTION OF THE SECOND CARD SECTION------------------------- */
 .cardsecond-parent {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -210,9 +217,12 @@ span {
   padding-left: 11px;
   width: 93%;
 }
+/*<======================>  END HERE THIS SECTION OF THE SECOND CARD SECTION   <======================> */
 
-/* THIRD CARD */
 
+
+
+/*------------------------- START HERE THIS SECTION OF THE CARD THIRD SECTION------------------------- */
 .cardthird-parent {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -254,9 +264,53 @@ span {
 .button-third button:focus {
   background: #0f212e;
 }
+/*<======================>  END HERE THIS SECTION OF THE THIRD CARD SECTION  <======================> */
 
-/* ACCORDIAN SECTION */
 
+
+
+
+/*------------------------- START HERE THIS SECTION OF THE FOURTH SECTION------------------------- */
+.fourth-parent {
+  background: #06141d;
+  margin: auto;
+  width: 85%;
+  padding: 50px 50px;
+  margin: 60px auto 70px auto;
+}
+
+.fourth-detail {
+  background: #06141d;
+  padding: 20px 0;
+  border-top: 2px solid #203646;
+}
+
+.fourth-detail h3 {
+  color: #ffffff;
+}
+
+.fourth-detail h5 {
+  color: #b5babc;
+  width: 60%;
+}
+
+.fourth-detail h6 {
+  color: #b5babc;
+}
+
+
+
+
+.accordian-parent {
+
+  padding: 0 0 80px 0;
+}
+/*<======================>  END HERE THIS SECTION OF THE FOURTH SECTION   <======================> */
+
+
+
+
+/*------------------------- START HERE THIS SECTION OF THE ACCORDIAN SECTION------------------------- */
 .accordian-parent {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -310,45 +364,13 @@ span {
 .css-i4bv87-MuiSvgIcon-root {
   color: white !important;
 }
-
-/* FOURTH CARD */
-
-.fourth-parent {
-  background: #06141d;
-  margin: auto;
-  width: 85%;
-  padding: 50px 50px;
-  margin: 60px auto 70px auto;
-}
-
-.fourth-detail {
-  background: #06141d;
-  padding: 20px 0;
-  border-top: 2px solid #203646;
-}
-
-.fourth-detail h3 {
-  color: #ffffff;
-}
-
-.fourth-detail h5 {
-  color: #b5babc;
-  width: 60%;
-}
-
-.fourth-detail h6 {
-  color: #b5babc;
-}
+/*<======================>  END HERE THIS SECTION OF THE ACCORDIAN SECTION   <======================> */
 
 
 
 
-.accordian-parent {
 
-  padding: 0 0 80px 0;
-}
-
-/* Footer CARD */
+/*------------------------- START HERE THIS SECTION OF THE FOOTER SECTION------------------------- */
 .footer {
   background: #071d2a;
   padding: 60px 0 20px 0;
@@ -407,3 +429,5 @@ span {
   height: 100%;
   object-fit: cover;
 }
+
+/*<======================>  END HERE THIS SECTION OF THE FOOTER SECTION   <======================> */
