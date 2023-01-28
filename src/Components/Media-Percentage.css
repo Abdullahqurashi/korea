@@ -56,11 +56,11 @@
     .nav-menu {
         background-color: #0f212e;
         width: 50%;
-        height: 538vh;
+        height: 100%;
         display: flex;
         justify-content: center;
-        position: absolute;
-        top: 55px;
+        position: relative;
+       
         left: -100%;
         transition: 850ms;
     }
@@ -86,11 +86,10 @@
     .nav-menu {
         background-color: #0f212e;
         width: 50%;
-        height: 538vh;
+        height: 100% !important;
         display: flex;
         justify-content: center;
-        position: absolute;
-        top: 82px;
+        position: relative  !important;
         left: -100%;
         transition: 850ms;
     }
