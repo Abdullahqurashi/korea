@@ -2,19 +2,19 @@ export const Firstdetail = [
 
     // FISRT CARD
     {
-        img: '',
+        img: './images/1card.PNG',
         title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
         description: '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
         button: "《漢》"
     },
     {
-        img: '',
+        img: './images/Card2.PNG',
         title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
         description: '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
         button: "《漢語大"
     },
     {
-        img: '',
+        img: './images/1card.PNG',
         title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
         description: '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
         button: '《漢語'
@@ -33,54 +33,54 @@ export const Firstdetail = [
 
  export const Seconddetail = [
     {
-img : '',
+img : './images/1card.PNG',
 title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
 description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
 
     },
     {
-img : '',
+img : './images/1card.PNG',
 title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
 description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
 
     },
     {
-img : '',
-title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
-description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
-
-
-    },
-    {
-img : '',
+img : './images/1card.PNG',
 title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
 description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
 
 
     },
     {
-img : '',
+img : './images/1card.PNG',
 title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
 description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
 
 
     },
     {
-img : '',
+img : './images/1card.PNG',
 title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
 description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
 
 
     },
     {
-img : '',
+img : './images/1card.PNG',
 title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
 description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
 
 
     },
     {
-img : '',
+img : './images/1card.PNG',
+title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
+description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
+
+
+    },
+    {
+img : './images/1card.PNG' ,
 title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
 description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
 
@@ -94,33 +94,33 @@ description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水�
 
 export const Thirddetail = [
     {
-img : '',
+img : './images/1card.PNG',
 title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
 description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
 
     },
     {
-img : '',
+img : './images/1card.PNG',
 title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
 description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
 
     },
     {
-img : '',
-title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
-description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
-
-
-    },
-    {
-img : '',
+img : './images/1card.PNG',
 title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
 description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
 
 
     },
     {
-img : '',
+img : './images/1card.PNG',
+title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
+description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
+
+
+    },
+    {
+img : './images/1card.PNG',
 title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
 description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
 
@@ -134,28 +134,28 @@ description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水�
 
     },
     {
-img : '',
+img : './images/1card.PNG',
 title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
 description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
 
 
     },
     {
-img : '',
+img :'./images/1card.PNG',
 title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
 description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
 
 
     },
     {
-img : '',
+img :'./images/1card.PNG',
 title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
 description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
 
 
     },
     {
-img : '',
+img : './images/1card.PNG',
 title: '流水，《漢語大詞典》拾遺之四 詞典》拾十',
 description : '流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十',
 
@@ -198,6 +198,26 @@ time : "今天:Kim471 | 2020.9.29"
         },
 ]
 
+//ACCORDIAN
+
+export const Accordiandata = [
+    {
+    title:'Accordion 1',
+    description : 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse'
+},
+    {
+    title:'Accordion 1',
+    description : 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse'
+},
+    {
+    title:'Accordion 1',
+    description : 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse'
+},
+    {
+    title:'Accordion 1',
+    description : 'Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse'
+},
+]
 // FOOTER
 
 export const Footerdetail=[
@@ -208,19 +228,72 @@ export const Footerdetail=[
         
     },
     
+   
+]
+
+
+export const footerbuttons =[
     {
-       btn: "CASINO"
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+     {
+        btn: "CASINO"
+     },
+]
+
+export const footersliderdata = [
+    {
+        img:'./images/slider1.PNG'
     },
     {
-       btn: "CASINO"
+        img:'./images/slider2.PNG'
     },
     {
-       btn: "CASINO"
+        img:'./images/slider3.PNG'
     },
     {
-       btn: "CASINO"
+        img:'./images/slider4.PNG'
     },
     {
-       btn: "CASINO"
+        img:'./images/slider5.PNG'
+    },
+    {
+        img:'./images/slider6.PNG'
     },
 ]
