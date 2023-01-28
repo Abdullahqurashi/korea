@@ -18,7 +18,7 @@ const Main = () => {
   return (
     <div>
     <Navbar showSidebar={showSidebar} sidebar={sidebar} />
-      <div className='grid-parent'>
+      <div className='grid-parent'  style={{ gridTemplateColumns: sidebar ? '250px auto' : '1fr', }} >
         <div>
 
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
