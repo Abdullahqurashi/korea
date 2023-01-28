@@ -2,6 +2,10 @@ body {
   background: #1a2c38;
   text-decoration: none;
 }
+.grid-parent{
+  display: grid;
+  position: relative;
+}
 .navbar {
   background-color: #1a2c38;
   height: 80px;
@@ -29,13 +33,16 @@ body {
 .nav-menu {
   background-color: #0f212e;
   width: 250px;
-  height: 538vh;
+  /* height: 538vh; */
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 82px;
+  /* top: 82px; */
   left: -100%;
   transition: 850ms;
+  /* position: relative; */
+  height: 100%;
+  z-index: 1;
 }
 
 .nav-menu.active {
