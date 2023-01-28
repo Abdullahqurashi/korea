@@ -7,12 +7,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { footersliderdata } from "../Data/Data";
-import Navbar from "./Navbar";
+
 
 // import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
-export default function footerslide() {
+export default function Footerslide() {
     return (
         <Fragment>
             {
@@ -28,7 +28,7 @@ export default function footerslide() {
                                 modules={[Navigation, Pagination, Mousewheel, Keyboard]}
                                 className="mySwiper"
                             >
-                                <SwiperSlide>{footerslidermap.img}</SwiperSlide>
+                                <SwiperSlide><img src={footerslidermap.img} alt="" /></SwiperSlide>
                             </Swiper>
                         </div>
                     )

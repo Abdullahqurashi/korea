@@ -15,41 +15,41 @@ export default function Accordian() {
       {/*  SECTION ACCORDIAN START HERE */}
 
 
-     <div>
-     {
-      Accordian.map((Accordianmap) => {
-        return (
-          <div className='accordian'>
-            <Accordion className='accordian' style={{borderBottom:'1px solid gray',padding:'5px 0'}}>
-              <AccordionSummary
-                expandIcon={<ExpandMoreIcon />}
-                aria-controls="panel1a-content"
-                id="panel1a-header" className='accordian'
-              >
-                <Typography style ={{fontSize:'20px'}}>{Accordianmap.title}</Typography>
-              </AccordionSummary>
-              <AccordionDetails >
-                <Typography className='accordian'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                  malesuada lacus ex, sit amet blandit leo lobortis eget.
-                </Typography>
-              </AccordionDetails>
-            </Accordion>
+      <div>
+        {
+          Accordian.map((Accordianmap) => {
+            return (
+              <div className='accordian'>
+                <Accordion className='accordian' style={{ borderBottom: '1px solid gray', padding: '5px 0' }}>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel1a-content"
+                    id="panel1a-header" className='accordian'
+                  >
+                    <Typography style={{ fontSize: '20px' }}>{Accordianmap.title}</Typography>
+                  </AccordionSummary>
+                  <AccordionDetails >
+                    <Typography className='accordian'>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                      malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    </Typography>
+                  </AccordionDetails>
+                </Accordion>
 
 
 
 
 
-          </div>
-        )
-      })
-    }
-     </div>
+              </div>
+            )
+          })
+        }
+      </div>
 
       {/*  SECTION ACCORDIAN START HERE */}
 
       <div>
-        <img src="./images/accordian.PNG" alt="" style={{width:'100%'}} />
+        <img src="./images/accordian.PNG" alt="" style={{ width: '100%' }} />
       </div>
     </div>
   );
