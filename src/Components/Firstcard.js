@@ -8,6 +8,11 @@ const Firstcard = ({ sidebar, showSidebar }) => {
             {/* this section start here here of card first  */}
 
             
+            <div style={{ width: "90%", margin: "auto", padding: '20px 0 0 0' }}>
+                    <h3 style={{ color: "white", }}>流水，《漢語大詞典》拾遺之四 詞典》拾十</h3>
+                    <h5 style={{ color: '#8a9297',width:'80%' }}>流水，《漢語大詞典》拾遺之四 詞典》拾十流水，《漢語大詞典》拾遺之四 詞典》拾十</h5>
+                </div>
+
             <div className='cardfirst-parent'>
                 {
                     Firstcard.map((firstmap) => {
