@@ -1,5 +1,5 @@
-@media (min-width:0) and (max-width:750px){
-    .heder{
+@media (min-width: 0) and (max-width: 750px) {
+    .heder {
         margin-left: 0 !important;
     }
 }
@@ -9,10 +9,11 @@
 /* NAVIGATION RESPONSIVENESS */
 
 /* ------------------------------------------------------------------------------------------------------------------------------- */
-@media (min-width:280px) and (max-width:400px){
-    .heder{
+@media (min-width: 280px) and (max-width: 400px) {
+    .heder {
         margin-left: 0 !important;
     }
+
     .menu-bars {
         margin-left: 1rem;
         /* font-size: 2rem; */
@@ -20,6 +21,7 @@
         color: white;
         font-size: 20px;
     }
+
     .nav-detail-text {
         color: white;
         text-align: center;
@@ -28,11 +30,12 @@
         margin-top: -2px;
     }
 }
-@media (min-width:401px) and (max-width:500px){
 
-    .heder{
+@media (min-width: 401px) and (max-width: 500px) {
+    .heder {
         margin-left: 0 !important;
     }
+
     .menu-bars {
         margin-left: 1rem;
         /* font-size: 2rem; */
@@ -40,6 +43,7 @@
         color: white;
         font-size: 23px;
     }
+
     .nav-detail-text {
         color: white;
         text-align: center;
@@ -55,10 +59,11 @@
 
 /* ------------------------------------------------------------------------------------------------------------------------------- */
 
- @media screen and (min-width:240px) and (max-width:400px) {
-    .heder{
+@media screen and (min-width: 240px) and (max-width: 400px) {
+    .heder {
         margin-left: 0 !important;
     }
+
     .nav-menu {
         background-color: #0f212e;
         width: 186px;
@@ -70,6 +75,7 @@
         left: -100%;
         transition: 850ms;
     }
+
     .nav-text a {
         text-decoration: none;
         color: #f5f5f5;
@@ -81,14 +87,13 @@
         padding: 0 6px;
         border-radius: 4px;
     }
-    span{
+
+    span {
         font-size: 15px;
     }
 }
 
-
-
-@media screen and (min-width:401px) and (max-width:500px){
+@media screen and (min-width: 401px) and (max-width: 500px) {
     .nav-menu {
         background-color: #0f212e;
         width: 214px;
@@ -100,9 +105,10 @@
         left: -100%;
         transition: 850ms;
     }
+
     span {
-        margin-left : 7px;
-        font-size:13px ;
+        margin-left: 7px;
+        font-size: 13px;
     }
 }
 
@@ -110,30 +116,29 @@
 
 /* CARD FIRST */
 
-@media screen and (min-width:650px) and (max-width:900px){
-    .cardfirst-title{
+@media screen and (min-width: 650px) and (max-width: 900px) {
+    .cardfirst-title {
         color: white;
         font-size: 14px;
     }
-    .cardfirst-parent{
+
+    .cardfirst-parent {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-          width: 90%;
-          margin: auto;
-          padding: 5px 0 0 0;
-          flex-wrap: wrap wrap;
-         
-        }
+        width: 90%;
+        margin: auto;
+        padding: 5px 0 0 0;
+        flex-wrap: wrap wrap;
+    }
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------- */
-
 
 /* Second FIRST */
 
 /* ------------------------------------------------------------------------------------------------------------------------------- */
 
-@media screen and (min-width:0) and (max-width:599px){
+@media screen and (min-width: 0) and (max-width: 599px) {
     .cardsecond-parent {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -144,7 +149,7 @@
     }
 }
 
-@media screen and (min-width:600px) and (max-width:900px){
+@media screen and (min-width: 600px) and (max-width: 900px) {
     .cardsecond-parent {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -155,18 +160,13 @@
     }
 }
 
-
-
-
-
 /* ------------------------------------------------------------------------------------------------------------------------------- */
-
 
 /*  THIRD CARD */
 
 /* ------------------------------------------------------------------------------------------------------------------------------- */
 
-@media screen and (min-width:0) and (max-width:499px){
+@media screen and (min-width: 0) and (max-width: 499px) {
     .cardthird-parent {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -176,10 +176,11 @@
         flex-wrap: wrap wrap;
     }
 }
-@media screen and (min-width:500px) and (max-width:699px) {
+
+@media screen and (min-width: 500px) and (max-width: 699px) {
     .cardthird-parent {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
         width: 90%;
         margin: auto;
         padding: 5px 0 0 0;
@@ -187,7 +188,7 @@
     }
 }
 
-@media screen and (min-width:700px) and (max-width:900px){
+@media screen and (min-width: 700px) and (max-width: 900px) {
     .cardthird-parent {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;

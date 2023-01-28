@@ -6,7 +6,7 @@ import * as IoIcons from 'react-icons/io';
 export const Data = [
   {
     title: '《漢語大詞典',
-    
+
     icon: <AiIcons.AiFillHome />,
     cName: 'nav-text'
   },

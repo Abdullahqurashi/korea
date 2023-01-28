@@ -12,8 +12,12 @@ import { footersliderdata } from "../Data/Data";
 // import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
+
+{/*------------------------- START HERE THIS SECTION OF THE FOOTER SLIDER ------------------------- */ }
+
 export default function Footerslide() {
     return (
+
         <Fragment>
             {
                 footersliderdata.map((footerslidermap) => {
@@ -37,3 +41,6 @@ export default function Footerslide() {
         </Fragment>
     );
 }
+
+
+{/*<======================>  END HERE THIS SECTION OF THE FOOTER SLIDER   <======================> */ }
